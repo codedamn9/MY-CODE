@@ -1,0 +1,6 @@
+#Given number is positive or negitive
+a=int(input('enter a number:'))
+if a>0:
+    print('given number is positve:',a)#true block statement
+else:
+    print('given number is negitive:',a)#false block statement
