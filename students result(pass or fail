@@ -1,0 +1,14 @@
+#To print the result of the given student
+#pass or fail
+sno=int(input('enter the student no:'))
+sname=input('enter student group')
+s1=int(input('Maths marks:'))
+s2=int(input('Physics marks:'))
+s3=int(input('Computers marks:'))
+s4=int(input('Telugu marks:'))
+s5=int(input('English marks:'))
+s6=int(input('Analytical skills:'))
+if s1>35 and s2>35 and s3>35 and s4>40 and s5>40 and s6>25:
+    print('pass')#true block statement
+else:
+    print('fail')#false block statement
