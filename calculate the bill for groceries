@@ -1,0 +1,32 @@
+#assignment-1
+cname=input('enter customer name:')
+cphno=int(input('enter phone number:'))
+spp=25
+opp=110
+cmp=100
+rpp=1000
+cpp=50
+sp=int(input('enter no of salt packets:'))
+op=int(input('enter no of oil packets:'))
+cm=int(input('enter no of chat masala packets:'))
+rp=int(input('enter no of rice packets:'))
+cp=int(input('enter no of chilli packets:'))
+bill=(sp*spp)+(cm*cmp)+(op*opp)+(cp*cpp)+(rp*rpp)
+if bill>=5000:
+    dis=bill*10/100
+    tax=bill*10/100
+elif bill>3000:
+    dis=bill*8/100
+    tax=bill*8/100
+elif bill>2000:
+    dis=bill*6/100
+    tax=bill*5/100
+elif bill>1000:
+    dis=bill*3/100
+if bill>5000:
+    dis=bill*10/100
+else:
+    dis=0
+    tax=bill*2/100
+billamount=bill-dis+tax
+print('billamount:',billamount)
