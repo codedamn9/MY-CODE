@@ -1,0 +1,12 @@
+#wap to print count of n prime numbers
+def isprime(n):
+ for i in range(2,n):
+    if n%i==0:
+       return False
+    return True
+n=int(input('enter number:'))
+count=0
+for j in range(2,n):
+ if isprime(j):
+  count=count+1
+print('count:',count)
