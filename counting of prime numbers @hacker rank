@@ -6,12 +6,10 @@ def myprime(n):
         return True
 t=int(input())
 for i in range(t):
-    x=input().split(' ')
-    start=int(x[0])
-    end=int(x[1])
+    n=int(input())
     c=0
-    for i in range(start+1,end):
+    for i in range(c,):
         if myprime(i):
             c=c+1
-    print(c)        
+    print(c,end='')        
     
