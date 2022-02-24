@@ -1,0 +1,9 @@
+def rev(n):
+    rev_n=''
+    for i in n:
+        rev_n=i+rev_n
+    print('rev_n:',rev_n)
+n=input('enter number:')
+rev(n)
+        
+        
